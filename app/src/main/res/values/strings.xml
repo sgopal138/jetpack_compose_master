@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">JetpackComposeMaster</string>
+    <string name="content_desc">Jetpack Compose</string>
+    <string name="lets_start">Hey %1$s, Let\'s start\nJetpack Compose Practice</string>
+    <string name="title_activity_topics">TopicsActivity</string>
+</resources>
