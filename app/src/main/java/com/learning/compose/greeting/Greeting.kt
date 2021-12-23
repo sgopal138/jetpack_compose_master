@@ -49,16 +49,13 @@ fun GreetingScreen() {
                     .fillMaxSize()
             ) {
 
-                val input = filledTextField("Enter name",
-                    modifier = Modifier.padding(16.dp))
-
-                Box(
+                val input = filledTextField(
+                    "Enter name",
                     modifier = Modifier
-                        .padding(10.dp)
-                        .height(30.dp)
-                        .background(Color.White)
-                        .aspectRatio(1f)
+                        .padding(16.dp)
                 )
+
+                Spacer(modifier = Modifier.padding(top = 16.dp))
 
                 Text(
                     text = stringResource(id = R.string.lets_start, input),
